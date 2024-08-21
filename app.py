@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 st.title("AI CHAT APPLICATION")
 
-genai.configure(api_key="AIzaSyDuqMU6mN28Fchw-LXng896UxVKrL5KoVs")
+genai.configure(api_key="keyvalue")
 
 text = st.text_input("Enter the question")
 
